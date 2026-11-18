@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Lucky",
+        "age": 22,
+        "city": "Indore",
+        "skills": ["Python", "React", "Node.js"],
+        "salary": 25000
+    },
+    {
+        "name": "Rahul",
+        "age": 24,
+        "city": "Bhopal",
+        "skills": ["Java", "SQL"],
+        "salary": 30000
+    },
+    {
+        "name": "Aman",
+        "age": 23,
+        "city": "Dewas",
+        "skills": ["Python", "MongoDB"],
+        "salary": 28000
+    },
+    {
+        "name": "Priya",
+        "age": 25,
+        "city": "Pune",
+        "skills": ["React", "JavaScript"],
+        "salary": 40000
+    },
+    {
+        "name": "Neha",
+        "age": 21,
+        "city": "Indore",
+        "skills": ["Python", "Django"],
+        "salary": 22000
+    }
+]
