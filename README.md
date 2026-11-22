@@ -220,4 +220,4 @@ ultimate-data-science/
 
 Made by **[Lucky Verma](https://github.com/Luckyverma04)**
 
-</div>
+</div>s
