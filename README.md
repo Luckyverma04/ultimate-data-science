@@ -4,19 +4,27 @@
 
 **Learn • Practice • Analyze • Visualize • Build**
 
-My hands-on Data Science learning journey — Jupyter notebooks, datasets, visualizations, web scraping, and practical Python projects. This repository is actively growing as I explore new topics.
+My hands-on Data Science learning journey: Jupyter notebooks, datasets, visualizations, web scraping and practical Python projects. This repository is actively growing as I explore new topics.
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=python&logoColor=white)](https://matplotlib.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)](https://seaborn.pydata.org/)
-![Learning](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen)
+[![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?logo=python&logoColor=white)](https://seaborn.pydata.org/)
+![Status](https://img.shields.io/badge/Status-Actively%20Learning-brightgreen)
 
 **22 notebooks · 5 topic/project areas · real code and chart outputs**
 
-[📚 Learning topics](#-learning-roadmap) · [📸 Chart gallery](#-visualization-gallery) · [🧩 Projects](#-projects) · [🚀 Run locally](#-run-locally)
+[📚 Roadmap](#-learning-roadmap) · [📸 Chart gallery](#-visualization-gallery) · [🧩 Projects](#-projects) · [🚀 Run locally](#-run-locally)
+
+<br/>
+
+<a href="Matplotlib/Intro.ipynb">
+  <img src="docs/screenshots/line-comparison.png" alt="Line plot comparison created with Matplotlib" width="760"/>
+</a>
+
+<sub>Click any chart in this README to open the notebook that produced it.</sub>
 
 </div>
 
@@ -27,10 +35,10 @@ My hands-on Data Science learning journey — Jupyter notebooks, datasets, visua
 | Area | What I have practiced | Material |
 |---|---|---|
 | 🧮 **NumPy & Pandas** | Arrays, multidimensional data, DataFrames, cleaning, merging, grouping, reshaping | [8 notebooks](Basics%20of%20pandas%20numpy/) |
-| 📊 **Matplotlib & Seaborn** | Line/bar/scatter/pie/histogram plots, subplots, styling, statistical charts | [7 notebooks](Matplotlib/) |
+| 📊 **Matplotlib & Seaborn** | Line, bar, scatter, pie and histogram plots, subplots, styling, statistical charts | [7 notebooks](Matplotlib/) |
 | 🌐 **Web scraping** | HTTP requests, HTML parsing, extracting structured data | [2 notebooks](Web_Scraping/) |
-| 🧩 **Project 01 — Social Network** | Data cleanup, mutual-friend and page recommendations | [4 notebooks](Project_01/) |
-| 📱 **Project 02 — Coders of Bengaluru** | Instagram-style profile text parsing and structured data | [1 notebook](Project_02/) |
+| 🧩 **Project 01: Social Network** | Data cleanup, mutual-friend and page recommendations | [4 notebooks](Project_01/) |
+| 📱 **Project 02: Coders of Bengaluru** | Instagram-style profile text parsing and structured data | [1 notebook](Project_02/) |
 
 > **In progress:** This is my learning workspace, not a finished course. More exercises and projects will be added.
 
@@ -38,24 +46,56 @@ My hands-on Data Science learning journey — Jupyter notebooks, datasets, visua
 
 ## 📸 Visualization gallery
 
-**These are actual chart images extracted from my Jupyter notebooks.** Select a chart to open its corresponding notebook and explore the Python code behind it.
+These are actual chart images exported from my Jupyter notebooks. Select a chart to open the notebook with the Python code behind it.
 
-| 📈 Line plots | 📊 Grouped bars |
-|:---:|:---:|
-| [<img src="docs/screenshots/line-comparison.png" alt="Line plots and comparisons" width="440"/>](Matplotlib/Intro.ipynb) | [<img src="docs/screenshots/grouped-bar.png" alt="Grouped bar chart" width="440"/>](Matplotlib/Bar.ipynb) |
-| **🎯 Scatter with color and size** | **📉 Histogram** |
-| [<img src="docs/screenshots/scatter-custom.png" alt="Customized scatter plot" width="440"/>](Matplotlib/scatter.ipynb) | [<img src="docs/screenshots/age-histogram.png" alt="Age distribution histogram" width="440"/>](Matplotlib/histogram.ipynb) |
-| **🥧 Pie chart formatting** | **🖼️ Multi-panel subplots** |
-| [<img src="docs/screenshots/pie-custom.png" alt="Pie chart with customized slices" width="440"/>](Matplotlib/pieChart.ipynb) | [<img src="docs/screenshots/subplots.png" alt="Multiple subplot arrangements" width="440"/>](Matplotlib/sub_Plots.ipynb) |
-| **📦 Seaborn box plots** | **🌡️ Seaborn heatmaps** |
-| [<img src="docs/screenshots/seaborn-boxplot.png" alt="Seaborn box plot" width="440"/>](Matplotlib/Seaborn.ipynb) | [<img src="docs/screenshots/seaborn-heatmap.png" alt="Seaborn heatmap" width="440"/>](Matplotlib/Seaborn.ipynb) |
-
-<details>
-<summary><b>See another chart: horizontal bar plot</b></summary>
-
-[<img src="docs/screenshots/horizontal-bar.png" alt="Horizontal bar plot" width="700"/>](Matplotlib/Bar.ipynb)
-
-</details>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>📈 Line plots</b><br/>
+      <a href="Matplotlib/Intro.ipynb"><img src="docs/screenshots/line-comparison.png" alt="Line plots and comparisons" width="100%"/></a>
+    </td>
+    <td align="center" width="50%">
+      <b>📊 Grouped bars</b><br/>
+      <a href="Matplotlib/Bar.ipynb"><img src="docs/screenshots/grouped-bar.png" alt="Grouped bar chart" width="100%"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🎯 Scatter with color and size</b><br/>
+      <a href="Matplotlib/scatter.ipynb"><img src="docs/screenshots/scatter-custom.png" alt="Customized scatter plot" width="100%"/></a>
+    </td>
+    <td align="center">
+      <b>📉 Histogram</b><br/>
+      <a href="Matplotlib/histogram.ipynb"><img src="docs/screenshots/age-histogram.png" alt="Age distribution histogram" width="100%"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>🥧 Pie chart formatting</b><br/>
+      <a href="Matplotlib/pieChart.ipynb"><img src="docs/screenshots/pie-custom.png" alt="Pie chart with customized slices" width="100%"/></a>
+    </td>
+    <td align="center">
+      <b>🖼️ Multi-panel subplots</b><br/>
+      <a href="Matplotlib/sub_Plots.ipynb"><img src="docs/screenshots/subplots.png" alt="Multiple subplot arrangements" width="100%"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>📦 Seaborn box plot</b><br/>
+      <a href="Matplotlib/Seaborn.ipynb"><img src="docs/screenshots/seaborn-boxplot.png" alt="Seaborn box plot" width="100%"/></a>
+    </td>
+    <td align="center">
+      <b>🌡️ Seaborn heatmap</b><br/>
+      <a href="Matplotlib/Seaborn.ipynb"><img src="docs/screenshots/seaborn-heatmap.png" alt="Seaborn heatmap" width="100%"/></a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <b>📊 Horizontal bar plot</b><br/>
+      <a href="Matplotlib/Bar.ipynb"><img src="docs/screenshots/horizontal-bar.png" alt="Horizontal bar plot" width="60%"/></a>
+    </td>
+  </tr>
+</table>
 
 ### 🎨 Visualization techniques practiced
 
@@ -73,20 +113,20 @@ My hands-on Data Science learning journey — Jupyter notebooks, datasets, visua
 
 ## 🧩 Projects
 
-### Project 01 — Social Network Analysis & Recommendations
+### Project 01: Social Network Analysis & Recommendations
 
-A hands-on exercise in exploring nested JSON social-network data, cleaning records, and creating simple recommendations based on shared connections and liked pages.
+A hands-on exercise in exploring nested JSON social-network data, cleaning records and creating simple recommendations based on shared connections and liked pages.
 
 | Step | Notebook | What I built / explored |
 |---|---|---|
-| 01 | [Inspect the data](Project_01/01_intro.ipynb) | Users, friend connections, and pages |
+| 01 | [Inspect the data](Project_01/01_intro.ipynb) | Users, friend connections and pages |
 | 02 | [Clean the network](Project_01/02_cleaning.ipynb) | Missing data, repeated entries and inactive users |
 | 03 | [People you may know](Project_01/03-people_you_may_know.ipynb) | Mutual-friend recommendations |
 | 04 | [Pages you may like](Project_01/04_pages_you_like.ipynb) | Recommendations using liked-page overlap |
 
 **Skills:** Python dictionaries and sets, JSON, exploratory inspection, data cleaning, recommendation logic.
 
-### Project 02 — Coders of Bengaluru (Instagram-style profile data)
+### Project 02: Coders of Bengaluru (Instagram-style profile data)
 
 This project works with **social-media-style profile text** rather than a ready-to-use spreadsheet. I practiced extracting profile fields and converting messy text into structured data for future analysis.
 
@@ -98,7 +138,7 @@ This project works with **social-media-style profile text** rather than a ready-
 
 **What I practiced:** usernames and profile details, follower/post counts, `K`/`M` shorthand, chunking text, type conversion, JSON structuring.
 
-> This notebook focuses on **extraction and structuring**. The chart gallery above shows the Matplotlib and Seaborn exercises; it is not presented as visualizations from this Instagram-profile project.
+> This project focuses on **extraction and structuring**. The chart gallery above comes from the Matplotlib and Seaborn exercises, not from this Instagram-profile project.
 
 ---
 
@@ -149,7 +189,7 @@ python -m pip install notebook numpy pandas matplotlib seaborn requests beautifu
 jupyter notebook
 ```
 
-Open the notebook you want to explore. Some notebooks use local datasets, so run them with the appropriate working directory or adjust relative file paths. Some scraping and sample dataset exercises require an internet connection.
+Open any notebook to explore. Some notebooks use local datasets, so run them from their own folder or adjust the relative file paths. Some scraping and sample-dataset exercises need an internet connection.
 
 ## 📁 Repository structure
 
@@ -161,24 +201,16 @@ ultimate-data-science/
 ├── Project_01/                 # Social network recommendation project
 ├── Project_02/                 # Coders of Bengaluru profile parsing
 ├── docs/
-│   └── screenshots/            # Actual chart PNGs used in this README
+│   └── screenshots/            # Chart PNGs used in this README
 └── README.md
 ```
 
-## 🖼️ Direct image links
+## 🔭 What's next
 
-These URLs work **after the `docs/screenshots/` images have been committed to the `main` branch**.
-
-| Output | Direct image link |
-|---|---|
-| Line plot | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/line-comparison.png) |
-| Grouped bars | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/grouped-bar.png) |
-| Scatter plot | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/scatter-custom.png) |
-| Histogram | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/age-histogram.png) |
-| Pie plot | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/pie-custom.png) |
-| Subplots | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/subplots.png) |
-| Box plot | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/seaborn-boxplot.png) |
-| Heatmap | [View PNG](https://raw.githubusercontent.com/Luckyverma04/ultimate-data-science/main/docs/screenshots/seaborn-heatmap.png) |
+- [ ] Exploratory data analysis on a real-world dataset
+- [ ] Statistics fundamentals (distributions, hypothesis testing)
+- [ ] Intro to machine learning with scikit-learn
+- [ ] Interactive dashboards
 
 ---
 
