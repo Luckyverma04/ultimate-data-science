@@ -23,13 +23,8 @@ My hands-on Data Science learning journey: Jupyter notebooks, datasets, visualiz
 <a href="Matplotlib/Intro.ipynb">
   <img src="docs/screenshots/line-comparison.png" alt="Line plot comparison created with Matplotlib" width="760"/>
 </a>
-
 <sub>Click any chart in this README to open the notebook that produced it.</sub>
-
 </div>
-
----
-
 ## 🧭 Learning roadmap
 
 | Area | What I have practiced | Material |
