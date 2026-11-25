@@ -26,7 +26,6 @@ My hands-on Data Science learning journey: Jupyter notebooks, datasets, visualiz
 <sub>Click any chart in this README to open the notebook that produced it.</sub>
 </div>
 ## 🧭 Learning roadmap
-
 | Area | What I have practiced | Material |
 |---|---|---|
 | 🧮 **NumPy & Pandas** | Arrays, multidimensional data, DataFrames, cleaning, merging, grouping, reshaping | [8 notebooks](Basics%20of%20pandas%20numpy/) |
@@ -34,7 +33,6 @@ My hands-on Data Science learning journey: Jupyter notebooks, datasets, visualiz
 | 🌐 **Web scraping** | HTTP requests, HTML parsing, extracting structured data | [2 notebooks](Web_Scraping/) |
 | 🧩 **Project 01: Social Network** | Data cleanup, mutual-friend and page recommendations | [4 notebooks](Project_01/) |
 | 📱 **Project 02: Coders of Bengaluru** | Instagram-style profile text parsing and structured data | [1 notebook](Project_02/) |
-
 > **In progress:** This is my learning workspace, not a finished course. More exercises and projects will be added.
 
 ---
